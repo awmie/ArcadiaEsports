@@ -27,5 +27,5 @@ Check out the live version here: [Arcadia Esports](https://arcadia-esports.verce
 
 ## License
 
-This project is open-source and available under the [MIT License](LICENSE).
+All rights are reserved under [Esports Arcadia](https://github.com/awmie/ArcadiaEsports/blob/main/LICENSE)
 
