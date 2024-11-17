@@ -1,1 +1,49 @@
-@tailwind base;@tailwind components;@tailwind utilities;#particles-js{height:100%;left:0;position:fixed;top:0;width:100%}#float{animation:floating 3s ease-in-out infinite}@keyframes floating{0%{transform:translateY(0)}50%{transform:translateY(20px)}to{transform:translateY(0)}}::-webkit-scrollbar{width:8px}::-webkit-scrollbar-track{background-color:#9c59db}::-webkit-scrollbar-thumb{background-color:rgba(255,255,0,.558)}.body{scroll-behavior:smooth}.text-glow:hover{text-shadow:0 0 7px #b0b0b0,0 0 15px rgba(173,119,255,.7),0 0 25px rgba(159,95,255,.4)}.glow{text-shadow:0 0 3px #9864ff,0 0 15px rgba(78,54,115,.7),0 0 25px rgba(154,84,253,.39)}.white-glow{text-shadow:0 0 2px #ef0,0 0 50px rgba(236,255,143,.7),0 0 20px hsla(65,5%,49%,.39)}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+#particles-js {
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+#float {
+  animation: floating 3s ease-in-out infinite;
+}
+@keyframes floating {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background-color: #9c59db;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 0, 0.558);
+}
+.body {
+  scroll-behavior: smooth;
+}
+.text-glow:hover {
+  text-shadow: 0 0 7px #b0b0b0, 0 0 15px rgba(173, 119, 255, 0.7),
+    0 0 25px rgba(159, 95, 255, 0.4);
+}
+.glow {
+  text-shadow: 0 0 3px #9864ff, 0 0 15px rgba(78, 54, 115, 0.7),
+    0 0 25px rgba(154, 84, 253, 0.39);
+}
+.white-glow {
+  text-shadow: 0 0 2px #ef0, 0 0 50px rgba(236, 255, 143, 0.7),
+    0 0 20px hsla(65, 5%, 49%, 0.39);
+}
+
