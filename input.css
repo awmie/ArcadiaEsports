@@ -50,5 +50,5 @@
 /*rulebook button fix*/ 
 .rulebookbtn{
     position: relative;
-    z-index: 50; /* setting z value higher than Particle.js */
+    z-index: 39; /* setting z value higher than Particle.js */
 }
