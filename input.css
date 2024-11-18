@@ -47,3 +47,8 @@
     0 0 20px hsla(65, 5%, 49%, 0.39);
 }
 
+/*rulebook button fix*/ 
+.rulebookbtn{
+    position: relative;
+    z-index: 50; /* setting z value higher than Particle.js */
+}
