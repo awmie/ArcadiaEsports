@@ -46,4 +46,6 @@
   text-shadow: 0 0 2px #ef0, 0 0 50px rgba(236, 255, 143, 0.7),
     0 0 20px hsla(65, 5%, 49%, 0.39);
 }
-
+.Register{
+  border-bottom: 2px solid #9864ff;
+}
